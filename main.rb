@@ -1,4 +1,12 @@
 require "pry"
 require "sinatra"
 
-# Your routes go here:
+#  test
+get '/' do
+  erb :converter
+end
+
+# temp-converter-results?temperature=50&units=f
+
+
+# temp-converter-results?temperature=55&units=c
